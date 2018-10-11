@@ -6,9 +6,16 @@ To install automatically, use the generated user Powershell script.
 
 1. Open Powershell as Administrator.
 2. Run the following command:
-```Set-ExecutionPolicy Unrestricted -Scope Process```
+
+```
+Set-ExecutionPolicy Unrestricted -Scope Process
+```
+
 3. Then Run the following command on the same window:
-```powershell -ExecutionPolicy ByPass -File C:\path\to\windows_USER.ps1```
+
+```
+powershell -ExecutionPolicy ByPass -File C:\path\to\windows_USER.ps1
+```
 
 ## Manual installation
 
