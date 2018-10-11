@@ -4,16 +4,11 @@
 
 To install automatically, use the generated user Powershell script.
 
-1. Copy the user PowerShell script (`windows_USER.ps1`) to the client computer.
-2. Open Powershell as Administrator.
-3. Run the following command:
-```powershell
-powershell -ExecutionPolicy ByPass -File C:\path\to\windows_USER.ps1 Add
-```
-4. The command has help information available. To view its full help, run this from Powershell:
-```powershell
-Get-Help -Name .\windows_USER.ps1 -Full | more
-```
+1. Open Powershell as Administrator.
+2. Run the following command:
+```Set-ExecutionPolicy Unrestricted -Scope Process```
+3. Then Run the following command on the same window:
+```powershell -ExecutionPolicy ByPass -File C:\path\to\windows_USER.ps1```
 
 ## Manual installation
 
